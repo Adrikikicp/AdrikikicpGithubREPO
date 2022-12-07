@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.awkard_lib",
+    "module": "awkard-forge",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "awkard-forge-1.0.0.jar",
+          "url": "awkard-forge-1.0.0.jar",
+          "size": 6320,
+          "sha512": "6710aa28faba8bd2ec52924819fec0efe8daf8e69f89a306e1ca21995433cb6a99e687f683a37ac5907be24776c9c3ab406251b51e5c514e4cab1ee89dacd00f",
+          "sha256": "2ccfd19970eb61a521f606a446f6808bae88d7629a83e4a23b25d4ebbea5e0ea",
+          "sha1": "38222f233a48bbd747552b696ea2c8552b339b3c",
+          "md5": "e74c5496c124d7f9275cbc43411563a1"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "awkard-forge-1.0.0.jar",
+          "url": "awkard-forge-1.0.0.jar",
+          "size": 6320,
+          "sha512": "6710aa28faba8bd2ec52924819fec0efe8daf8e69f89a306e1ca21995433cb6a99e687f683a37ac5907be24776c9c3ab406251b51e5c514e4cab1ee89dacd00f",
+          "sha256": "2ccfd19970eb61a521f606a446f6808bae88d7629a83e4a23b25d4ebbea5e0ea",
+          "sha1": "38222f233a48bbd747552b696ea2c8552b339b3c",
+          "md5": "e74c5496c124d7f9275cbc43411563a1"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "awkard-forge-1.0.0-sources.jar",
+          "url": "awkard-forge-1.0.0-sources.jar",
+          "size": 3886,
+          "sha512": "577d67274f29bdc8174b97fce551cec44e65d50525f7ca5dcdb81a245a889cd2f10be60914f634570606a37edfb8e5f013cb7c32433f3965b9e71546b822b8db",
+          "sha256": "e01b5de73188b5d3f6d07dde24dd2a5791a8586d0df771162a0302ce33e3ad36",
+          "sha1": "d97c542ec11796f6b9aa42cf01a30e23b40c40a6",
+          "md5": "9d6db0d3e9bc67021a19f50a419ed7f7"
+        }
+      ]
+    }
+  ]
+}

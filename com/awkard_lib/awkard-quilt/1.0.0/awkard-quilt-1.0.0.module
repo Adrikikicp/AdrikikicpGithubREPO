@@ -1,0 +1,105 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.awkard_lib",
+    "module": "awkard-quilt",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.quiltmc.quilted-fabric-api",
+          "module": "quilted-fabric-api",
+          "version": {
+            "requires": "4.0.0-beta.7+0.59.0-1.19.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "awkard-quilt-1.0.0.jar",
+          "url": "awkard-quilt-1.0.0.jar",
+          "size": 8687,
+          "sha512": "e4b8d63db54161acbeb9aa68b4c813de58d4118af9a2e15012fd57dc5c45eeb6e37765607b2bcfccbfefb885620239e34dabbd3989915f2b020c07e97e7dcf2b",
+          "sha256": "f2d6a9f680d48eb193276b3f3fa4543d075db19694221d38931da54a8fb595cc",
+          "sha1": "0ed1c9552d1152038d04f70cb237ccd30f79969b",
+          "md5": "e49ae5782e3e57a48a2659a4e854aeba"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.quiltmc.quilted-fabric-api",
+          "module": "quilted-fabric-api",
+          "version": {
+            "requires": "4.0.0-beta.7+0.59.0-1.19.2"
+          }
+        },
+        {
+          "group": "org.quiltmc",
+          "module": "quilt-loader",
+          "version": {
+            "requires": "0.17.2-beta.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "awkard-quilt-1.0.0.jar",
+          "url": "awkard-quilt-1.0.0.jar",
+          "size": 8687,
+          "sha512": "e4b8d63db54161acbeb9aa68b4c813de58d4118af9a2e15012fd57dc5c45eeb6e37765607b2bcfccbfefb885620239e34dabbd3989915f2b020c07e97e7dcf2b",
+          "sha256": "f2d6a9f680d48eb193276b3f3fa4543d075db19694221d38931da54a8fb595cc",
+          "sha1": "0ed1c9552d1152038d04f70cb237ccd30f79969b",
+          "md5": "e49ae5782e3e57a48a2659a4e854aeba"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "awkard-quilt-1.0.0-sources.jar",
+          "url": "awkard-quilt-1.0.0-sources.jar",
+          "size": 5378,
+          "sha512": "bbc0755ce012aa687095909b5a0143fb7964bb865141678873d111b2e3b430813d9d1a68688200acd93611bf526389d6a266ac27d524b960e9d9ecc544e5aeac",
+          "sha256": "37beb1c47c08158568bbc54630233279d8acf96d5a2a54bf65c3f5fe68f9227e",
+          "sha1": "fbf189b5ef4e5c749f92ffd0a9c73d352b2a6f0d",
+          "md5": "90c9628b7d5bc505ac05a41098ff8387"
+        }
+      ]
+    }
+  ]
+}

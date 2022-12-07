@@ -1,0 +1,89 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.awkard_lib",
+    "module": "awkard",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "awkard-1.0.0.jar",
+          "url": "awkard-1.0.0.jar",
+          "size": 4187,
+          "sha512": "63e7048de5d30a96cd0c49be610679ab4e416cef98a16902e2c4bab053f71ef313eeb3b49047e2b039ec856000fe56e09c6ca838f5a72adc4b0529ac50a2043c",
+          "sha256": "171ed105892410c9708d7472f33e1cb5844b65a9eda745afc463cd0940cc3785",
+          "sha1": "4ec5fd5ab87ae1bcb7b5efe772a0ee57c4d9be92",
+          "md5": "dc44328cdaf973c9a69e530c4ee5bc05"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.14.9"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "awkard-1.0.0.jar",
+          "url": "awkard-1.0.0.jar",
+          "size": 4187,
+          "sha512": "63e7048de5d30a96cd0c49be610679ab4e416cef98a16902e2c4bab053f71ef313eeb3b49047e2b039ec856000fe56e09c6ca838f5a72adc4b0529ac50a2043c",
+          "sha256": "171ed105892410c9708d7472f33e1cb5844b65a9eda745afc463cd0940cc3785",
+          "sha1": "4ec5fd5ab87ae1bcb7b5efe772a0ee57c4d9be92",
+          "md5": "dc44328cdaf973c9a69e530c4ee5bc05"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "awkard-1.0.0-sources.jar",
+          "url": "awkard-1.0.0-sources.jar",
+          "size": 2745,
+          "sha512": "e6e005cb92f4df9db9fe8dae81fe260edbcd0bd02e212652853b9986c4d907c15b7326e196804b897c4905641a75d1b85a57c8877e6a6fbeb82e24d3990fb3d7",
+          "sha256": "acbdff2f465a7c1cfa1b9f891e227a1708edbef991add35045edeba2acf54aac",
+          "sha1": "d32b924c0136e748bb82e569078afda2bb30c172",
+          "md5": "c02ea459b226bd8a6bb23f12b6542bb9"
+        }
+      ]
+    }
+  ]
+}

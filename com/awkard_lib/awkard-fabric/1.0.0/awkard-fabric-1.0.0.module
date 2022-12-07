@@ -1,0 +1,105 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.awkard_lib",
+    "module": "awkard-fabric",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.59.0+1.19.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "awkard-fabric-1.0.0.jar",
+          "url": "awkard-fabric-1.0.0.jar",
+          "size": 6242,
+          "sha512": "6ca3873fcffdcb1441e2bdf1d99b2f8148664315cc40722eedc7f51e77a5bb99325ab6012c55994be455aceffc23e9ce37a62bf67e4d8c43cc351d3ca9919c49",
+          "sha256": "9717d0eb342a558d75c9e3e0bb394b8c0cca6a15216af3a3f3c05380ecca91f7",
+          "sha1": "cee9d7f53a175c46d6188b37597e6091f7a32b7a",
+          "md5": "99d0e14808a7b6934b72c4415a3b4898"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.59.0+1.19.2"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.14.9"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "awkard-fabric-1.0.0.jar",
+          "url": "awkard-fabric-1.0.0.jar",
+          "size": 6242,
+          "sha512": "6ca3873fcffdcb1441e2bdf1d99b2f8148664315cc40722eedc7f51e77a5bb99325ab6012c55994be455aceffc23e9ce37a62bf67e4d8c43cc351d3ca9919c49",
+          "sha256": "9717d0eb342a558d75c9e3e0bb394b8c0cca6a15216af3a3f3c05380ecca91f7",
+          "sha1": "cee9d7f53a175c46d6188b37597e6091f7a32b7a",
+          "md5": "99d0e14808a7b6934b72c4415a3b4898"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "awkard-fabric-1.0.0-sources.jar",
+          "url": "awkard-fabric-1.0.0-sources.jar",
+          "size": 3636,
+          "sha512": "35a812d1b101520ea6f8f4489e92c476b21f9d1e3eb57d7712ddae503b956a0dca668c793f2242fdbbe0b274b5faa50921c47f2fde3478e34d1d3a4625e3c841",
+          "sha256": "65a1e9c384d2667f4040aa0deaffe661779d6798712e4f8a91fe972b91b846dc",
+          "sha1": "a6ff48e21dff7ce0fedcdd098ee3653158d6f7e2",
+          "md5": "fa80b70d15b605df4b9fd60be8998d04"
+        }
+      ]
+    }
+  ]
+}
